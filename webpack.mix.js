@@ -27,5 +27,6 @@ mix
 
 
 .js('src/app.js', 'dist')
+// .postCss('src/main.css','/')
 .vue({version:2})
 .setPublicPath('dist');
